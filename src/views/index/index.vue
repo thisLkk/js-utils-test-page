@@ -89,7 +89,7 @@ onMounted(() => {
       </div>
     </div>
     <div class="index-box">
-      <h4>入参：<span>请检验入参具体值</span></h4>
+      <h4>入参：</h4>
       <Field v-model="inputValue" type="textarea" label="" placeholder="请输入留言" rows="3" autosize />
     </div>
     <div class="message">

@@ -9,6 +9,21 @@ const routes = [
 		path: '/',
 		name: 'index',
 		component: () => import("@/views/index/index.vue")
-	}
+	},
+	{
+		path: '/demo',
+		name: 'demo',
+		component: () => import("@/views/demo/index.vue")
+	},
+	{
+		path: '/shader-park-core',
+		name: '着色器',
+		component: () => import("@/views/shader-park-core/index.vue")
+	},
+	{
+		path: '/css-demo',
+		name: 'css未来的新属性',
+		component: () => import("@/views/css-demo/index.vue")
+	},
 ]
 export default routes

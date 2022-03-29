@@ -25,5 +25,10 @@ const routes = [
 		name: 'css未来的新属性',
 		component: () => import("@/views/css-demo/index.vue")
 	},
+	{
+		path: '/axios-demo',
+		name: 'axios功能',
+		component: () => import("@/views/axios-demo/index.vue")
+	},
 ]
 export default routes

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@lu-kk/js-utils": "0.0.26",
+    "axios": "^0.26.1",
     "mazey": "^1.4.39",
     "shader-park-core": "^0.1.12",
     "vant": "^3.4.5",

@@ -7,4 +7,7 @@
 
 <style lang='scss'>
 @import './assets/css/reset.css';
+.a {
+  color: 1;
+}
 </style>

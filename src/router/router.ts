@@ -3,10 +3,10 @@ const routes = [
 		// 重定向和2不同之处
 		path: '/:pathMatch(.*)*',
 		name: 'notFound',
-		redirect: '/',
+		redirect: '/index',
 	},
 	{
-		path: '/',
+		path: '/index',
 		name: 'index',
 		component: () => import("@/views/index/index.vue")
 	},

@@ -8,7 +8,7 @@ const resolve = (pathname = '') => {
 }
 export default defineConfig(({ command, mode }) => {
   return {
-    base: command == 'serve' ? './' : '/h5/js-utils-test-page/',
+    base: command == 'serve' ? './' : '/m/js-utils-page/',
     resolve: {
       alias: {
         '@': resolve('src')
